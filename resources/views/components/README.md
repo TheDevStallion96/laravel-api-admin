@@ -1,12 +1,10 @@
 # Components
 
 ### Text Input
-1. Component
 ```bash
 php artisan make:component Inputs/TextInput --view
 ```
-
- ```php
+```php
 <!-- resources/views/components/TextInput.blade.php -->
 
 <div>
@@ -23,8 +21,7 @@ php artisan make:component Inputs/TextInput --view
         <p class="text-red-500">{{ $errors->first($name) }}</p>
     @endif
 </div>
- ```
-2. Usage
- ```php
+```
+```php
 <x-TextInput label="Username" name="username" type="text" />
- ```
+```
