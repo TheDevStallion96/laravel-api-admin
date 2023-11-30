@@ -4,9 +4,11 @@
 
 
 The <code>TextInput</code> Laravel Blade component seamlessly integrates a labeled input field into your views, enhancing form development. It includes error handling, dynamically adjusting the UI to highlight input errors. Streamline your user experience with this component, promoting efficient data entry and robust form validation in Laravel applications.
+- Artisan Command
 ```bash
 php artisan make:component Inputs/TextInput --view
 ```
+- Component Code
 ```php
 <!-- resources/views/components/TextInput.blade.php -->
 
@@ -25,6 +27,7 @@ php artisan make:component Inputs/TextInput --view
     @endif
 </div>
 ```
+- Usage
 ```php
 <x-TextInput label="Username" name="username" type="text" />
 ```
