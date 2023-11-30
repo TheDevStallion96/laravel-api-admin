@@ -30,6 +30,8 @@ php artisan make:component Inputs/TextInput --view
 ```
 ---
 ### Button
+
+The "Button" Laravel Blade component streamlines button creation with a clean interface. Easily customize styles, such as background color, text, and font weight, by leveraging Tailwind CSS classes. Simplify your views with this reusable component, enhancing code readability and promoting consistency across your Laravel project.
 ```bash
 php artisan make:component Button
 ```
