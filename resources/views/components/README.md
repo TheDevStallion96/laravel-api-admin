@@ -28,3 +28,5 @@ php artisan make:component Inputs/TextInput --view
 ```php
 <x-TextInput label="Username" name="username" type="text" />
 ```
+---
+### Button
