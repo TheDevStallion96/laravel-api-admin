@@ -2,6 +2,10 @@
 
 ### Text Input
 1. Component
+```bash
+php artisan make:component Inputs/TextInput --view
+```
+
  ```php
 <!-- resources/views/components/TextInput.blade.php -->
 
