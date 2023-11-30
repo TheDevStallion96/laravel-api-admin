@@ -54,3 +54,8 @@
     </div>
 </x-app-layout>
 ```
+```php
+<x-slot name="header">
+     {{ __('Users') }}
+</x-slot>
+```
